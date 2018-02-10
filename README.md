@@ -11,7 +11,23 @@ Under GPLv3
 I recommend running it in screen with the shell open but most people will probably just want to run it with noshell.
 
 ```
-$ erl -noshell -s wihd start
+$ erl -pa ebin/ -noshell -s wihd start
+```
+
+### Compiling
+
+Either compile from command line
+
+```
+$ erlc src/wihd.erl
+```
+
+Or run in shell
+
+```
+$ erl
+$ c(wihd).
+$ wihd:start().
 ```
 
 ### Usage
