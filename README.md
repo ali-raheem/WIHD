@@ -1,4 +1,4 @@
-# WIHD v 0.1.0
+# WIHD v 0.1.1
 
 [War in Hex](https://github.com/wolfmankurd/war_in_hex) daemon is a Online multipler server written in Erlang.
 

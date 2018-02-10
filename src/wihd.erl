@@ -62,9 +62,9 @@ linker(L) ->
 acceptor(ListenSocket) ->
     {ok, Socket} = gen_tcp:accept(ListenSocket),
     spawn(fun() ->
-		  register_with_linker(Socket)
+		  acceptor(ListenSocket)
 	  end),
-    acceptor(ListenSocket).
+    register_with_linker(Socket).
 
 %% @doc Await for a game name from the client and use it to register with Linker
 register_with_linker(Socket) ->
