@@ -6,6 +6,8 @@ Great performance and uptime even on a Raspberry Pi 2.
 
 Under GPLv3
 
+There are other versions which are will not be as supported. [Rust version](https://github.com/wolfmankurd/wihd.rs).
+
 ### Running
 
 I recommend running it in screen with the shell open but most people will probably just want to run it with noshell.
