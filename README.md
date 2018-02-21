@@ -1,4 +1,4 @@
-# WIHD v 0.1.1 [![Build Status](https://travis-ci.org/wolfmankurd/WIHD.svg?branch=master)](https://travis-ci.org/wolfmankurd/WIHD)
+# WIHD v 0.1.2 [![Build Status](https://travis-ci.org/wolfmankurd/WIHD.svg?branch=master)](https://travis-ci.org/wolfmankurd/WIHD)
 
 [War in Hex](https://github.com/wolfmankurd/war_in_hex) daemon is a Online multipler server written in Erlang.
 
@@ -52,5 +52,7 @@ If there is an already existing lobby then a relay connection is made between th
 
 ### Changelog
 
-* 2018-02-02 - v0.1.0
-- First working version
+- 2018-02-21 - v0.1.1
+ - Fix: Linker does not close lobbies
+- 2018-02-02 - v0.1.0
+ - First working version

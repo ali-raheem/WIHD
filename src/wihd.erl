@@ -53,7 +53,7 @@ linker(L) ->
 		Partner ->
 		    User ! {connect, Partner},
 		    Partner ! {connect, User},
-		    linker(proplists:delete(tag, L))
+		    linker(proplists:delete(Tag, L))
 	    end
     end,
     linker(L).
