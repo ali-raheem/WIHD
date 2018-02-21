@@ -1,0 +1,3 @@
+language: erlang
+script: erlc src/wihd.erl
+script: rebar3 edoc
